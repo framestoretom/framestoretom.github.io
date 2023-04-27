@@ -1,3 +1,4 @@
-import './style.css'
+const params = window.location.search;
+const urlSearchParams = new URLSearchParams(params);
 
-console.log('api call');
+console.log(urlSearchParams);
